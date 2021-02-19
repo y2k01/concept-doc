@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf9ebbb9-e0f9-477c-a448-5868f8b5db7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/javascript/full-page-scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/stylesheet/full-page-scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -63,7 +60,7 @@
       <workItem from="1613735550557" duration="107000" />
       <workItem from="1613735660728" duration="749000" />
       <workItem from="1613743238137" duration="6019000" />
-      <workItem from="1613752004969" duration="1338000" />
+      <workItem from="1613752004969" duration="3639000" />
     </task>
     <servers />
   </component>

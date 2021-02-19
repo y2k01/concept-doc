@@ -7,8 +7,23 @@
 body {
   @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
   background-color: black;
-  scroll-behavior: smooth;
   .scroll-container {
+    .section2 {
+      justify-content: space-around;
+      img {
+        margin-left: 100px;
+      }
+      .story-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          margin-top: 50px;
+          width: 65%;
+        }
+      }
+    }
     section {
       width: 99vw;
       height: 100vh;
@@ -17,26 +32,31 @@ body {
       align-items: center;
       color: #BAC6C9;
       h1 {
-        font-family: 'Press Start 2P', cursive;
+        font-family: 'Press Start 2P';
         margin: 0 auto;
         margin: 30px;
         color: #FFF;
       }
       p {
         width: 40%;
-        margin: 0 auto;
         line-height: 1.5rem;
       }
       img {
         width: 40%;
-        margin: 0 auto;
         border-radius: 100px;
       }
     }
-    #starting-page {
+  }
+    .section1 {
       flex-direction: column;
+      h2 {
+        font-family: 'Press Start 2P';
+        color: #FFF;
+      }
       .typewriter {
+        margin-top: 50px;
         #game-title {
+          font-size: 2rem;
           overflow: hidden; /* Ensures the content is not revealed until the animation */
           border-right: .15em solid orange; /* The typwriter cursor */
           white-space: nowrap; /* Keeps the content on a single line */
@@ -56,15 +76,15 @@ body {
         }
       }
     }
-    .section-column {
-      flex-direction: column;
-      h2 {
-        margin: 50px;
-      }
-      li {
-        line-height: 1.5rem;
-        list-style: none;
-      }
+
+  .section-column {
+    flex-direction: column;
+    h2 {
+      margin: 50px;
+    }
+    li {
+      line-height: 1.5rem;
+      list-style: none;
     }
   }
 }
