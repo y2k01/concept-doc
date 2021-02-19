@@ -1,9 +1,37 @@
 * {
-  font-family: Montserrat;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
 }
 
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 100px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #FFF;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Montserrat;
+}
+img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#intro {
+    flex-direction: column;
+}
+
+body {
+    background-color: black;
+
 }
