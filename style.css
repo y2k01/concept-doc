@@ -9,7 +9,7 @@ body {
   background-color: black;
   scroll-behavior: smooth;
 }
-body section {
+body .scroll-container section {
   width: 99vw;
   height: 100vh;
   display: flex;
@@ -17,26 +17,26 @@ body section {
   align-items: center;
   color: #BAC6C9;
 }
-body section h1 {
+body .scroll-container section h1 {
   font-family: "Press Start 2P", cursive;
   margin: 0 auto;
   margin: 30px;
   color: #FFF;
 }
-body section p {
+body .scroll-container section p {
   width: 40%;
   margin: 0 auto;
   line-height: 1.5rem;
 }
-body section img {
+body .scroll-container section img {
   width: 40%;
   margin: 0 auto;
   border-radius: 100px;
 }
-body #starting-page {
+body .scroll-container #starting-page {
   flex-direction: column;
 }
-body #starting-page .typewriter #game-title {
+body .scroll-container #starting-page .typewriter #game-title {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange;
@@ -65,13 +65,13 @@ body #starting-page .typewriter #game-title {
     border-color: orange;
   }
 }
-body .section-column {
+body .scroll-container .section-column {
   flex-direction: column;
 }
-body .section-column h2 {
+body .scroll-container .section-column h2 {
   margin: 50px;
 }
-body .section-column li {
+body .scroll-container .section-column li {
   line-height: 1.5rem;
   list-style: none;
 }

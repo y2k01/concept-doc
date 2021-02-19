@@ -5,21 +5,24 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheet/full-page-scroll.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <section id="starting-page">
+<div id="main" class="scroll-container">
+    <section id="starting-page" class="section1">
         <h1>The Hoax Entertainment presents:</h1>
         <div class="typewriter">
             <h1 id="game-title">Heavenly Cortex</h1>
         </div>
     </section>
-    <section>
+    <section class="section2">
         <img src="https://i.pinimg.com/originals/62/19/33/62193363422dc819732a98427b6b1657.gif" alt="">
         <p>
             Недалекое будущее, человечество на Земле погрязло в беспрецедентном насилии из-за перенаселения и нищеты, бесконечные войны за ресурсы, которые находятся на грани истощения не прекращаются ни на секунду, поиски пригодных для жизни планет и их колонизация потерпели крах. Но одна научно-религиозная организация работает над проектом Эдем, по переносу человеческого сознания в искусственно созданное пространство, благодаря высоким вычислительным технологиям, оно в точности повторяет древнее священное описание Рая.
@@ -27,7 +30,7 @@
             Главный герой - претендент. Он подписал контракт всей своей жизни и теперь ему предстоит погрузиться в пучину своего безумия, в которой обитают существа созданные по подобию его самых главных страхов.
         </p>
     </section>
-    <section id="game-mechanics" class="section-column">
+    <section id="game-mechanics" class="section-column section3">
         <h2>Игровые механики:</h2>
         <ul>
             <li>2 режима атаки: дальний и ближний</li>
@@ -38,7 +41,7 @@
             <li>Сеттинг: психоделика, фэнтези, Sci-Fi</li>
         </ul>
     </section>
-    <section id="crew" class="section-column">
+    <section id="crew" class="section-column section4">
         <h2>Crew:</h2>
         <ul>
             <li>Pavlov Stanislav - team lead / lead programmer</li>
@@ -46,5 +49,17 @@
             <li>Limonov Vladislav - programmer</li>
         </ul>
     </section>
+</div>
+    <script src="assets/javascript/full-page-scroll.js"></script>
+    <script type="text/javascript">
+        new fullScroll({
+            mainElement: "main",
+            displayDots: true,
+            dotsPosition: "right",
+            animateTime: 0.7,
+            animateFunction: "ease",
+        });
+    </script>
+    <script src="index.js"></script>
 </body>
 </html>

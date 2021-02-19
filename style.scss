@@ -8,64 +8,65 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
   background-color: black;
   scroll-behavior: smooth;
-  section {
-    width: 99vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #BAC6C9;
-    h1 {
-      font-family: 'Press Start 2P', cursive;
-      margin: 0 auto;
-      margin: 30px;
-      color: #FFF;
-    }
-    p {
-      width: 40%;
-      margin: 0 auto;
-      line-height: 1.5rem;
-    }
-    img {
-      width: 40%;
-      margin: 0 auto;
-      border-radius: 100px;
-    }
-  }
-  #starting-page {
-    flex-direction: column;
-    .typewriter {
-      #game-title {
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid orange; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .15em; /* Adjust as needed */
-        animation:
-                typing 3.5s steps(40, end),
-                blink-caret .75s step-end infinite;
+  .scroll-container {
+    section {
+      width: 99vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #BAC6C9;
+      h1 {
+        font-family: 'Press Start 2P', cursive;
+        margin: 0 auto;
+        margin: 30px;
+        color: #FFF;
       }
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
+      p {
+        width: 40%;
+        margin: 0 auto;
+        line-height: 1.5rem;
       }
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: orange; }
+      img {
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 100px;
       }
     }
-  }
-  .section-column {
-    flex-direction: column;
-    h2 {
-      margin: 50px;
+    #starting-page {
+      flex-direction: column;
+      .typewriter {
+        #game-title {
+          overflow: hidden; /* Ensures the content is not revealed until the animation */
+          border-right: .15em solid orange; /* The typwriter cursor */
+          white-space: nowrap; /* Keeps the content on a single line */
+          margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+          letter-spacing: .15em; /* Adjust as needed */
+          animation:
+                  typing 3.5s steps(40, end),
+                  blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: orange; }
+        }
+      }
     }
-    li {
-      line-height: 1.5rem;
-      list-style: none;
+    .section-column {
+      flex-direction: column;
+      h2 {
+        margin: 50px;
+      }
+      li {
+        line-height: 1.5rem;
+        list-style: none;
+      }
     }
   }
-
 }
 
 
